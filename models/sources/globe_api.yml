@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: globe_api
+    database: globe
+    tables:
+      - name: chargeback_report
+      - name: acceptance_report

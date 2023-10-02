@@ -1,0 +1,13 @@
+dbt_globe_api:
+  outputs:
+    dev:
+      account: nzpkhvl-ka74502
+      database: globe
+      password: *******
+      role: accountadmin
+      schema: globe_api_dbt
+      threads: 10
+      type: snowflake
+      user: tanerceyhanli
+      warehouse: compute_wh
+  target: dev
